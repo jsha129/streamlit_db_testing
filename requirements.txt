@@ -1,0 +1,6 @@
+pandas
+matplotlib
+numpy
+openpyxl
+xlsxwriter
+pg8000
