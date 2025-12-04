@@ -3,15 +3,15 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Replace with your Neon PostgreSQL credentials
-user = "your_username"
-password = "your_password"
-host = "your_host"     # e.g., abc123.neon.tech
-port = "5432"
-database = "your_database"
+HOST = "ep-icy-dawn-a7q2fmwh-pooler.ap-southeast-2.aws.neon.tech"
+USER = "neondb_owner"
+PASSWORD = "npg_2zsJAF3pECPo"
+DATABASE = "neondb"
+PORT = 5432
 
 # SQLAlchemy connection using pg8000 instead of psycopg2
 connection_string = (
-    f"postgresql+pg8000://{user}:{password}@{host}:{port}/{database}"
+    f"postgresql://{user}:{password}@{host}:{port}/{database}"
 )
 
 engine = create_engine(connection_string)
