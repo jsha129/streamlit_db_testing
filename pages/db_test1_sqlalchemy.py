@@ -11,7 +11,7 @@ PORT = 5432
 
 # SQLAlchemy connection using pg8000 instead of psycopg2
 connection_string = (
-    f"postgresql://{user}:{password}@{host}:{port}/{database}"
+    f"postgresql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DATABASE}"
 )
 
 engine = create_engine(connection_string)
