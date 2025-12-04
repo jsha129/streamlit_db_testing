@@ -1,9 +1,4 @@
-pandas
-matplotlib
-numpy
-openpyxl
-xlsxwriter
-pg8000
+
 psycopg2-binary
 psycopg2
 sqlalchemy
