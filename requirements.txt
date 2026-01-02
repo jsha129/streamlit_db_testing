@@ -1,5 +1,6 @@
 pandas
 pg8000
+os
 
 psycopg2-binary
 sqlalchemy
